@@ -1,0 +1,12 @@
+node_modules
+hardhat-tutorial/node_modules
+my-app/node_modules
+.env
+hardhat-tutorial/.env
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
