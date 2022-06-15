@@ -294,7 +294,7 @@ export default function Home() {
         await getTokenIdsMinted();
       }, 5 * 1000);
     }
-  }, [walletConnected]);
+  }, [walletConnected, checkIfPresaleEnded]);
 
   /*
       renderButton: Returns a button based on the state of the dapp
